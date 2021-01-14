@@ -1,0 +1,47 @@
+body {
+    background-image: url(http://i.piccy.info/i9/82aef92ef80609b8384c26176179cfae/1610568393/338384/1409475/photo_1534794048419_48e110dca88e.jpg);
+}
+.container {
+    margin: 0 auto;
+    width: 1150px;
+}
+.fa-city {
+    margin-right: -26px;
+    padding-top: 19px;
+    position: relative;
+    left: 8px;
+    color: #6e6e6e;
+}
+.input-field {
+    padding-left: 41px
+}
+.input-city {
+    display: flex;
+}
+input[type="text"] { 
+    border: 1px solid #98baba;
+    color: blue;
+    font-size: 18px;
+   }
+input[type="text"]::placeholder {
+    color: red;
+    font-size: 18px;
+   }
+.input-field {
+    color: #a9a9a9;
+    font-size: 13px;
+    border: 1px solid #cbcbcb;
+    border-radius: 2px;
+    width: 308px;
+    padding-top: 19px;
+    padding-bottom: 16px;
+}
+.input-field__btn {
+    color: #a9a9a9;
+    font-size: 13px;
+    border: 1px solid #cbcbcb;
+    border-radius: 2px;
+    width: 80px;
+    padding-top: 19px;
+    padding-bottom: 16px;
+}
