@@ -1,3 +1,24 @@
+class Model {
+
+}
+
+class View {
+    constructor() {
+    this.widgetExchangeRate = document.querySelector('#widgetExchangeRate');
+    }
+}
+
+class Controller {
+
+}
+
+
+
+
+
+
+
+
 // import View from './view';
 // import Model from './model';
 // import Controller from './controller';
