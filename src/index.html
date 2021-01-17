@@ -1,23 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>weather app</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 </head>
 <body>
     <header class="header">
-        <span class="widgetWeather" id="widgetWeather"></span>
-        <span class="widgetExchangeRate" id="widgetExchangeRate">
+        <div id="marquee">
+            <marquee behavior="scroll" truespeed="200">
+              <div id='mylist' class='garage-title'></div>Тут могла бы быть ваша реклама. Мне нравится этот шрифт. Как в 8-битных играх 
+            </marquee>
+          </div>
+        <div class="container">
+
+            <span class="currents" id="currents">
            
-        </span>
-      </header>
+            </span>
+            <div class="weather-add" id="weather-add">
+            
+
+            </div>
+            <span class="weather" id="weather">
+                <h2>Погода по вашей локации</h2>
+            </span>
+        </div>
+    </header>
     
       
       
-      <div id="root"></div>
+      
     <!-- <div id="usd"></div>
     <button></button>
     <header class="header-city">
