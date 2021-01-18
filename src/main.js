@@ -177,7 +177,7 @@ class Controller {
           return response.json();
         }).then(currObject => {
           const rate = `💵${currObject[0].ccy}: ${currObject[0].buy} ${currObject[0].sale}</br>
-          💶${currObject[1].ccy}:${currObject[1].buy} ${currObject[1].sale}</br>`;
+          💶${currObject[1].ccy}: ${currObject[1].buy} ${currObject[1].sale}</br>`;
           this.view.exchangeRate(rate);
         });  
       }

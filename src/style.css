@@ -26,14 +26,14 @@ body {
     left: 8px;
     color: #6e6e6e;
 }
-.input {
+/* .input {
     padding-left: 41px
 }
 .input {
     display: flex;
-}
+} */
 input[type="text"] { 
-    border: 1px solid #98baba;
+    /* border: 1px solid #98baba; */
     color: blue;
     font-size: 18px;
    }
@@ -44,22 +44,35 @@ input[type="text"]::placeholder {
 input {
     color: #000000;
     font-size: 13px;
-    border: 1px solid #cbcbcb;
-    border-radius: 2px;
+    /* border: 1px solid #cbcbcb; */
+    border-radius: 3px;
     width: 308px;
-    padding-top: 19px;
+    padding-top: 17px;
     padding-bottom: 16px;
+    outline: none;
+    border: none;
 }
 button {
     color: #a9a9a9;
     font-size: 16px;
-    border: 1px solid #cbcbcb;
+    /* border: 1px solid #cbcbcb; */
     border-radius: 2px;
     width: 180px;
     padding-top: 19px;
     padding-bottom: 16px;
-}
+    border: none;
+    outline: none;
 
+}
+.weather-add {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px; 
+    padding: 10px;
+    margin: 20px;
+}
 
 
 
