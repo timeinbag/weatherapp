@@ -1,5 +1,4 @@
 body {
-    /* font-family: 'Potta One', cursive; */
     font-family: 'Press Start 2P', cursive;
     background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
     background-size: 400% 400%;
@@ -26,14 +25,7 @@ body {
     left: 8px;
     color: #6e6e6e;
 }
-/* .input {
-    padding-left: 41px
-}
-.input {
-    display: flex;
-} */
 input[type="text"] { 
-    /* border: 1px solid #98baba; */
     color: blue;
     font-size: 18px;
    }
@@ -44,7 +36,6 @@ input[type="text"]::placeholder {
 input {
     color: #000000;
     font-size: 13px;
-    /* border: 1px solid #cbcbcb; */
     border-radius: 3px;
     width: 308px;
     padding-top: 17px;
@@ -55,7 +46,6 @@ input {
 button {
     color: #a9a9a9;
     font-size: 16px;
-    /* border: 1px solid #cbcbcb; */
     border-radius: 2px;
     width: 180px;
     padding-top: 19px;
